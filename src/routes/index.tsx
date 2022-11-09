@@ -4,7 +4,7 @@ import Counter from "~/components/Counter";
 import { createPreventScroll } from "@solid-aria/overlays";
 
 export default function Home() {
-  
+  createPreventScroll(true);
 
   return (
     <main>
